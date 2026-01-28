@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #0b0f14;
+  color: #e6edf3;
+}
+
+#badge {
+  position: fixed;
+  top: 10px;
+  right: 10px;   /* 改这里：右上角 */
+  left: auto;    /* 取消左侧定位 */
+
+  color: #00ff66;
+  background: #000;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  z-index: 9999;
+  opacity: 0.9;
+}
+
+#app_root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 上半屏：按钮区 */
+#control_area {
+  flex: 1 1 50%;
+  padding: 14px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.control_title {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+#button_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  flex: 1;
+}
+
+.action_btn {
+  border: 1px solid rgba(255,255,255,0.14);
+  background: rgba(255,255,255,0.06);
+  color: #e6edf3;
+  border-radius: 14px;
+  padding: 12px 10px;
+  font-size: 15px;
+}
+
+.action_btn:active {
+  transform: scale(0.98);
+}
+
+/* 下半屏：触摸板区 */
+#pad_area {
+  flex: 1 1 50%;
+  display: grid;
+  place-items: center;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.hint {
+  opacity: 0.9;
+  text-align: center;
+  padding: 18px;
+}
+
+.small {
+  opacity: 0.65;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}

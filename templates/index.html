@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Long Distance Control</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+<div id="badge">WS-MVP</div>
+
+<div id="app_root">
+  <!-- 上半屏：按钮 -->
+  <div id="control_area">
+    <div class="control_title">快捷按钮</div>
+    <div id="button_grid">
+      {% for b in button_list %}
+      <button class="action_btn" data_action_id="{{ b.id }}">{{ b.text }}</button>
+      {% endfor %}
+    </div>
+    <div class="small mono" id="trigger_status"></div>
+  </div>
+
+  <!-- 下半屏：触摸板 -->
+  <div id="pad_area">
+    <div class="hint">
+      <div>触摸板</div>
+      <div class="small" id="status">booting…</div>
+      <div class="small mono" id="debug"></div>
+      <div class="small mono" id="debug2"></div>
+      <div class="small mono" id="debug3"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.app_config = {
+    token: "{{ token }}",
+    ws_port: {{ ws_port }}
+  };
+</script>
+<script src="/static/main.js"></script>
+</body>
+</html>
