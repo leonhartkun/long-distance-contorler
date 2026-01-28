@@ -70,12 +70,56 @@ html, body {
   touch-action: none;
   user-select: none;
   -webkit-user-select: none;
+
+  /* 新增：让预览可叠加 */
+  position: relative;
+  overflow: hidden;
+}
+
+/* 新增：预览画面 */
+#mouse_preview {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: #000;
+  z-index: 0;
+
+  /* 关键：不抢触摸 */
+  pointer-events: none;
+}
+
+/* 新增：中心十字 */
+.crosshair_v, .crosshair_h {
+  position: absolute;
+  background: rgba(255,255,255,0.35);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.crosshair_v {
+  width: 1px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-0.5px);
+}
+
+.crosshair_h {
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-0.5px);
 }
 
 .hint {
   opacity: 0.9;
   text-align: center;
   padding: 18px;
+  z-index: 2;
+  pointer-events: none; /* 触摸板全屏可用 */
 }
 
 .small {

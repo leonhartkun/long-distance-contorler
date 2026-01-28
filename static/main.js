@@ -10,6 +10,9 @@ const trigger_status_el = document.getElementById("trigger_status");
 
 const pad_el = document.getElementById("pad_area");
 
+// 新增：预览 img
+const preview_img = document.getElementById("mouse_preview");
+
 function set_status(t) { if (status_el) status_el.textContent = t; }
 function set_debug(t) { if (debug_el) debug_el.textContent = t; }
 function set_debug2(t) { if (debug2_el) debug2_el.textContent = t; }
@@ -91,7 +94,7 @@ function connect_ws(trigger) {
 
   try {
     if (ws) {
-      ws.onopen = ws.onclose = ws.onerror = null;
+      ws.onopen = ws.onclose = ws.onerror = ws.onmessage = null;
       ws.close();
     }
   } catch (e) {}
@@ -125,6 +128,17 @@ function connect_ws(trigger) {
   ws.onerror = () => {
     try { ws.close(); } catch (e) {}
     schedule_reconnect("onerror");
+  };
+
+  // 新增：接收预览帧
+  ws.onmessage = (ev) => {
+    let data = null;
+    try { data = JSON.parse(ev.data); } catch (e) { return; }
+    if (!data || typeof data !== "object") return;
+
+    if (data.type === "preview" && data.image && preview_img) {
+      preview_img.src = "data:image/jpeg;base64," + data.image;
+    }
   };
 }
 

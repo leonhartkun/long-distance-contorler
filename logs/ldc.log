@@ -3940,3 +3940,120 @@
 2026-01-28 14:25:34 | INFO    | ldc | ws client disconnected
 2026-01-28 14:54:59 | INFO    | ldc | ws client connected
 2026-01-28 14:55:02 | INFO    | ldc | ws client disconnected
+2026-01-28 15:55:26 | INFO    | ldc | mouse_worker started
+2026-01-28 15:55:26 | INFO    | ldc | preview_worker started size=500 fps=5
+2026-01-28 15:55:26 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 15:55:26 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 15:55:34 | INFO    | ldc | ws client connected
+2026-01-28 15:55:39 | INFO    | ldc | double_click event_type=double_click
+2026-01-28 15:55:47 | INFO    | ldc | ws client disconnected
+2026-01-28 15:58:00 | INFO    | ldc | ws client connected
+2026-01-28 15:58:04 | INFO    | ldc | trigger action=cmd_hold_off
+2026-01-28 15:58:05 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 15:58:05 | INFO    | ldc | cmd_hold_on
+2026-01-28 15:58:07 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:09 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:10 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:10 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:12 | INFO    | ldc | double_click event_type=double_click
+2026-01-28 15:58:13 | INFO    | ldc | double_click event_type=double_click
+2026-01-28 15:58:15 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 15:58:17 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:18 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:20 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:21 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 15:58:21 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:26 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 15:58:27 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:30 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:30 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:31 | INFO    | ldc | double_click event_type=double_click
+2026-01-28 15:58:32 | INFO    | ldc | double_click event_type=double_click
+2026-01-28 15:58:35 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 15:58:36 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:39 | INFO    | ldc | trigger action=tab_next
+2026-01-28 15:58:40 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:41 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 15:58:42 | INFO    | ldc | trigger action=cmd_hold_off
+2026-01-28 15:58:42 | INFO    | ldc | cmd_hold_off
+2026-01-28 15:58:49 | INFO    | ldc | ws client disconnected
+2026-01-28 15:58:52 | INFO    | ldc | mouse_worker started
+2026-01-28 15:58:52 | INFO    | ldc | preview_worker started size=500 fps=5
+2026-01-28 15:58:52 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 15:58:52 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 15:58:54 | INFO    | ldc | ws client connected
+2026-01-28 15:58:54 | INFO    | ldc | ws client connected
+2026-01-28 15:58:54 | INFO    | ldc | ws client disconnected
+2026-01-28 16:00:22 | INFO    | ldc | ws client connected
+2026-01-28 16:00:22 | INFO    | ldc | ws client disconnected
+2026-01-28 16:01:35 | INFO    | ldc | ws client connected
+2026-01-28 16:01:35 | INFO    | ldc | ws client disconnected
+2026-01-28 16:01:55 | INFO    | ldc | trigger action=cmd_hold_on
+2026-01-28 16:01:55 | INFO    | ldc | cmd_hold_on
+2026-01-28 16:01:56 | INFO    | ldc | trigger action=tab_next
+2026-01-28 16:01:57 | INFO    | ldc | trigger action=tab_next
+2026-01-28 16:01:58 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 16:01:58 | INFO    | ldc | trigger action=tab_prev
+2026-01-28 16:01:58 | INFO    | ldc | trigger action=cmd_hold_off
+2026-01-28 16:01:58 | INFO    | ldc | cmd_hold_off
+2026-01-28 16:02:56 | INFO    | ldc | ws client disconnected
+2026-01-28 16:03:21 | INFO    | ldc | mouse_worker started
+2026-01-28 16:03:21 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:03:21 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:03:21 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:06:12 | INFO    | ldc | mouse_worker started
+2026-01-28 16:06:12 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:06:12 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:06:12 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:06:17 | INFO    | ldc | ws client connected
+2026-01-28 16:06:17 | INFO    | ldc | ws client connected
+2026-01-28 16:06:17 | INFO    | ldc | ws client disconnected
+2026-01-28 16:06:38 | INFO    | ldc | mouse_worker started
+2026-01-28 16:06:38 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:06:38 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:06:38 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:06:47 | INFO    | ldc | ws client connected
+2026-01-28 16:06:48 | INFO    | ldc | ws client disconnected
+2026-01-28 16:06:48 | INFO    | ldc | ws client connected
+2026-01-28 16:07:37 | INFO    | ldc | ws client disconnected
+2026-01-28 16:08:26 | INFO    | ldc | preview_size: 500
+2026-01-28 16:08:26 | INFO    | ldc | preview_fps: 24
+2026-01-28 16:08:26 | INFO    | ldc | mouse_worker started
+2026-01-28 16:08:26 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:08:26 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:08:26 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:08:29 | INFO    | ldc | ws client connected
+2026-01-28 16:08:31 | INFO    | ldc | ws client disconnected
+2026-01-28 16:08:33 | INFO    | ldc | ws client connected
+2026-01-28 16:08:33 | INFO    | ldc | ws client connected
+2026-01-28 16:08:33 | INFO    | ldc | ws client disconnected
+2026-01-28 16:09:08 | INFO    | ldc | ws client disconnected
+2026-01-28 16:14:29 | INFO    | ldc | preview_size: 500
+2026-01-28 16:14:29 | INFO    | ldc | preview_fps: 24
+2026-01-28 16:14:29 | INFO    | ldc | mouse_worker started
+2026-01-28 16:14:29 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:14:29 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:14:29 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:14:36 | INFO    | ldc | ws client connected
+2026-01-28 16:14:36 | INFO    | ldc | ws client connected
+2026-01-28 16:14:36 | INFO    | ldc | ws client disconnected
+2026-01-28 16:14:54 | INFO    | ldc | ws client disconnected
+2026-01-28 16:14:54 | INFO    | ldc | ws client connected
+2026-01-28 16:15:32 | INFO    | ldc | ws client connected
+2026-01-28 16:15:32 | INFO    | ldc | ws client disconnected
+2026-01-28 16:16:04 | INFO    | ldc | ws client disconnected
+2026-01-28 16:18:08 | INFO    | ldc | ws client connected
+2026-01-28 16:18:09 | INFO    | ldc | trigger action=screen_on
+2026-01-28 16:18:49 | INFO    | ldc | ws client disconnected
+2026-01-28 16:19:49 | INFO    | ldc | preview_size: 500
+2026-01-28 16:19:49 | INFO    | ldc | preview_fps: 24
+2026-01-28 16:19:49 | INFO    | ldc | mouse_worker started
+2026-01-28 16:19:49 | INFO    | ldc | preview_worker started size=500 fps=24
+2026-01-28 16:19:49 | INFO    | ldc | http listening on http://0.0.0.0:8888/
+2026-01-28 16:19:49 | INFO    | ldc | ws listening on ws://0.0.0.0:8765/
+2026-01-28 16:19:51 | INFO    | ldc | ws client connected
+2026-01-28 16:19:52 | INFO    | ldc | ws client disconnected
+2026-01-28 16:19:53 | INFO    | ldc | ws client connected
+2026-01-28 16:19:54 | INFO    | ldc | ws client connected
+2026-01-28 16:19:54 | INFO    | ldc | ws client disconnected
+2026-01-28 16:20:49 | INFO    | ldc | ws client disconnected
